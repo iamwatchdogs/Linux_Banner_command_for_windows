@@ -4,12 +4,12 @@
  * 
  *		Project Name 	 					: Banner
  * 		Current File Name					: banner.h
- * 		Programming Language used			: C++
+ * 		Programming Language used                               : C++
  * 		Current File Type					: C++ Header file
- * 		Project initiation Date/Time		: 18th December 2021 12:13 A.M.
- * 		Recent Data/Time of Modification	: 18th March 2022 02:21 P.M.
- * 		File Status							: Verified and working.:
- * 		Author								: N.Shamith
+ * 		Project initiation Date/Time                            : 18th December 2021 12:13 A.M.
+ * 		Recent Data/Time of Modification                        : 19th March 2022 12:07 A.M.
+ * 		File Status                                             : Verified and working.
+ * 		Author                                                  : N.Shamith
  * 
  * 		FILE DESCRIPTION :-
  * 		----------------
@@ -42,12 +42,12 @@
  * 
  * 
  * 			# Input_manager : 
- * 						Unlike the above two types of methods/member functions, this type of function ( friend
+ * 					Unlike the above two types of methods/member functions, this type of function ( friend
  * 				function ) is morelike a mediator between the methods/member functions of the class and the
  * 				input from the user. This a non-member function ( which means it's not part of a class i.e., a
  * 				friend function ) by which 'ONLY' we can use the above types of methods/member functions.The
  * 				functioning ( or ) the working of this method/member function is explained in detailed in file
- *  			named "README.md".
+ *  				named "README.md".
  * 
  * 				The friend function named "banner()" comes under this category.
  * 
@@ -61,7 +61,7 @@
  * 
  * 		NOTE :-
  * 		----
- * 						The soucre code is also available for reusing in your presonal projects, Since it's easy to
+ * 					   The soucre code is also available for reusing in your presonal projects, Since it's easy to
  * 		use, manage, extend it's functionalities and to debug ( if any ).
  * 
  */ 
@@ -79,11 +79,11 @@ class Banner_Class
 		{
 				case 0 :
 					std::cout << "  ##    ";		// 1.   ##  
-					break;							// 2.  #  # 
-				case 1 :							// 3. #    #
+					break;					// 2.  #  # 
+				case 1 :					// 3. #    #
 					std::cout << " #  #   ";		// 4. ######
-					break;							// 5. #    #
-				case 2 :							// 6. #    #
+					break;					// 5. #    #
+				case 2 :					// 6. #    #
 					std::cout << "#    #  ";
 					break;
 				case 3 :
@@ -101,11 +101,11 @@ class Banner_Class
 		{
 				case 0 :
 						std::cout << "#####   ";		// 1. ##### 
-						break;							// 2. #    #
-				case 1 :								// 3. ##### 
+						break;					// 2. #    #
+				case 1 :						// 3. ##### 
 						std::cout << "#    #  ";		// 4. #    #
-						break;							// 5. #    #
-				case 2 :								// 6. ##### 
+						break;					// 5. #    #
+				case 2 :						// 6. ##### 
 						std::cout << "#####   ";
 						break;
 				case 3 :
@@ -123,11 +123,11 @@ class Banner_Class
 		{
 				case 0 :
                         std::cout << " #####  ";		// 1.  #####
-                        break;							// 2. #     
-                case 1 :								// 3. #
-                case 2 :								// 4. #
-                case 3 :								// 5. #
-                case 4 :								// 6.  #####
+                        break;					// 2. #     
+                case 1 :					// 3. #
+                case 2 :					// 4. #
+                case 3 :					// 5. #
+                case 4 :					// 6.  #####
                         std::cout << "#       ";
                         break;
                 case 5 :
@@ -141,11 +141,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "####    ";		// 1. ####  
-                        break;							// 2. #   # 
-                case 1 :								// 3. #    # 
+                        break;					// 2. #   # 
+                case 1 :					// 3. #    # 
                         std::cout << "#   #   ";		// 4. #    #
-                        break;							// 5. #   # 
-                case 2 :								// 6. ####  
+                        break;					// 5. #   # 
+                case 2 :					// 6. ####  
                 case 3 :
                         std::cout << "#    #  ";
                         break;
@@ -163,11 +163,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "#####   ";		// 1. ##### 
-                        break;							// 2. #     
-                case 1 :								// 3. ##### 
+                        break;					// 2. #     
+                case 1 :					// 3. ##### 
                         std::cout << "#       ";		// 4. #     
-                        break;							// 5. #     
-                case 2 :								// 6. ######
+                        break;					// 5. #     
+                case 2 :					// 6. ######
                         std::cout << "#####   ";
                         break;
                 case 3 :
@@ -185,11 +185,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "######  ";		// 1. ######
-                        break;							// 2. #     
-                case 1 :								// 3. ####  
+                        break;					// 2. #     
+                case 1 :					// 3. ####  
                         std::cout << "#       ";		// 4. #     
-                        break;							// 5. #     
-                case 2 :								// 6. #     
+                        break;					// 5. #     
+                case 2 :					// 6. #     
                         std::cout << "####    ";
                         break;
                 case 3 :
@@ -205,11 +205,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "########  ";		// 1. ########
-                        break;							// 2. #      #
-                case 1 :								// 3. #       
+                        break;					// 2. #      #
+                case 1 :					// 3. #       
                         std::cout << "#      #  ";		// 4. #   ####
-                        break;							// 5. #   #  #
-                case 2 :								// 6. #####  #
+                        break;					// 5. #   #  #
+                case 2 :					// 6. #####  #
                         std::cout << "#         ";
                         break;
                 case 3 :
@@ -227,11 +227,11 @@ class Banner_Class
 	{
 		switch ( n )
 		{
-                case 0 :								// 1. #    #	
-                case 1 :								// 2. #    #
+                case 0 :					// 1. #    #	
+                case 1 :					// 2. #    #
                         std::cout << "#    #  ";		// 3. ######
-                        break;							// 4. #    #
-                case 2 :								// 5. #    #
+                        break;					// 4. #    #
+                case 2 :					// 5. #    #
                         std::cout << "######  ";		// 6. #    #
                         break;
                 case 3 :
@@ -247,11 +247,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "#######  ";		// 1. #######
-                        break;							// 2.    #
-                case 1 :								// 3.    #   
-                case 2 :								// 4.    #   
-                case 3 :								// 5.    #   
-                case 4 :								// 6. #######
+                        break;					// 2.    #
+                case 1 :					// 3.    #   
+                case 2 :					// 4.    #   
+                case 3 :					// 5.    #   
+                case 4 :					// 6. #######
                         std::cout << "   #     ";
                         break;
                 case 5 :
@@ -264,12 +264,12 @@ class Banner_Class
 		switch ( n )
 		{
                 case 0 :
-                        std::cout << " #######  ";			// 1.  #######
-                        break;								// 2.     #   
-                case 1 :									// 3.     #   
-                case 2 :									// 3.     #   
-                case 3 :									// 5. #   #   
-                        std::cout << "    #     ";			// 6. #####   
+                        std::cout << " #######  ";		// 1.  #######
+                        break;					// 2.     #   
+                case 1 :					// 3.     #   
+                case 2 :					// 3.     #   
+                case 3 :					// 5. #   #   
+                        std::cout << "    #     ";		// 6. #####   
                         break;
                 case 4 :
                         std::cout << "#   #     ";
@@ -285,11 +285,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "#   #  ";		// 1. #   #
-                        break;						// 2. #  # 
-                case 1 :							// 3. # #  
+                        break;				// 2. #  # 
+                case 1 :				// 3. # #  
                         std::cout << "#  #   ";		// 4. ##   
-                        break;						// 5. # #  
-                case 2 :							// 6. #   # 
+                        break;				// 5. # #  
+                case 2 :				// 6. #   # 
                         std::cout << "# #    ";
                         break;
                 case 3 :
@@ -307,11 +307,11 @@ class Banner_Class
 	{
 		switch ( n )
 		{
-                case 0 :								// 1. #      
-                case 1 :								// 2. #      
-                case 2 :								// 3. #      
-                case 3 :								// 4. #      
-                case 4 :								// 5. #      
+                case 0 :					// 1. #      
+                case 1 :					// 2. #      
+                case 2 :					// 3. #      
+                case 3 :					// 4. #      
+                case 4 :					// 5. #      
                         std::cout << "#        ";		// 6. #######
                         break;
                 case 5 :
@@ -325,11 +325,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "#     #  ";		// 1. #     #
-                        break;							// 2. ##   ##
-                case 1 :								// 3. # # # #
+                        break;					// 2. ##   ##
+                case 1 :					// 3. # # # #
                         std::cout << "##   ##  ";		// 4. #  #  #
-                        break;							// 5. #     #
-                case 2 :								// 6. #     #
+                        break;					// 5. #     #
+                case 2 :					// 6. #     #
                         std::cout << "# # # #  ";
                         break;
                 case 3 :
@@ -346,12 +346,12 @@ class Banner_Class
 		switch ( n )
 		{
                 case 0 :
-                        std::cout << "#     #  ";			// 1. #     #
-                        break;								// 2. # #   #
-                case 1 :									// 3. #  #  #
-                        std::cout << "# #   #  ";			// 4. #   # #
-                        break;								// 5. #    ##
-                case 2 :									// 6. #     #
+                        std::cout << "#     #  ";		// 1. #     #
+                        break;					// 2. # #   #
+                case 1 :					// 3. #  #  #
+                        std::cout << "# #   #  ";		// 4. #   # #
+                        break;					// 5. #    ##
+                case 2 :					// 6. #     #
                         std::cout << "#  #  #  ";
                         break;
                 case 3 :
@@ -371,11 +371,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << " #####   ";		// 1.  ##### 
-                        break;							// 2. #     #
-                case 1 :								// 3. #     #						
-                case 2 :								// 4. #     #
-                case 3 :								// 5. #     #
-                case 4 :								// 6.  ##### 
+                        break;					// 2. #     #
+                case 1 :					// 3. #     #						
+                case 2 :					// 4. #     #
+                case 3 :					// 5. #     #
+                case 4 :					// 6.  ##### 
                         std::cout << "#     #  ";
                         break;
                 case 5 :
@@ -389,11 +389,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "#####   ";		// 1. ##### 
-                        break;							// 2. #    #
-                case 1 :								// 3. #    #
-                case 2 :								// 4. #####    
+                        break;					// 2. #    #
+                case 1 :					// 3. #    #
+                case 2 :					// 4. #####    
                         std::cout << "#    #  ";		// 5. #     
-                        break;							// 6. # 
+                        break;					// 6. # 
                 case 3 :
                         std::cout << "#####   ";
                         break;
@@ -409,11 +409,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "#######  ";		// 1. #######
-                        break;							// 2. #     #
-                case 1 :								// 3. #     #
-                case 2 :								// 4. #   # #
+                        break;					// 2. #     #
+                case 1 :					// 3. #     #
+                case 2 :					// 4. #   # #
                         std::cout << "#     #  ";		// 5. #######
-                        break;							// 6.      # 
+                        break;					// 6.      # 
                 case 3 :
                         std::cout << "#   # #  ";
                         break;
@@ -431,11 +431,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "#####   "; 		// 1. ##### 
-                        break;							// 2. #    #
-                case 1 :								// 3. #    #		
-                case 2 :								// 4. ##### 
+                        break;					// 2. #    #
+                case 1 :					// 3. #    #		
+                case 2 :					// 4. ##### 
                         std::cout << "#    #  ";		// 5. #   # 
-                        break;							// 6. #    #
+                        break;					// 6. #    #
                 case 3 :
                         std::cout << "#####   ";
                         break;
@@ -453,11 +453,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << " #####   ";		// 1.  ##### 
-                        break;							// 2. #      
-                case 1 :								// 3.  ##### 
+                        break;					// 2. #      
+                case 1 :					// 3.  ##### 
                         std::cout << "#        ";		// 4.       #
-                        break;							// 5. #     #
-                case 2 :								// 6.  ##### 
+                        break;					// 5. #     #
+                case 2 :					// 6.  ##### 
                         std::cout << " #####   ";
                         break;
                 case 3 :
@@ -477,11 +477,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "#######  ";	// 1. #######
-                        break;						// 2.    #   
-                case 1 :							// 3.    #   
-                case 2 :							// 4.    #   
-                case 3 :							// 5.    #   
-                case 4 :							// 6.    #   
+                        break;				// 2.    #   
+                case 1 :				// 3.    #   
+                case 2 :				// 4.    #   
+                case 3 :				// 5.    #   
+                case 4 :				// 6.    #   
                 case 5 :
                         std::cout << "   #     ";
 		}
@@ -491,11 +491,11 @@ class Banner_Class
 	{
 		switch ( n )
 		{
-                case 0 :								// 1. #      #
-                case 1 :								// 2. #      #
-                case 2 :								// 3. #      #
-                case 3 :								// 4. #      #
-                case 4 :								// 5. #      #
+                case 0 :					// 1. #      #
+                case 1 :					// 2. #      #
+                case 2 :					// 3. #      #
+                case 3 :					// 4. #      #
+                case 4 :					// 5. #      #
                         std::cout << "#      #  ";		// 6.  ###### 
                         break;
                 case 5 :
@@ -509,11 +509,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "#         #  ";			// 1. #         #
-                        break;									// 2.  #       # 
-                case 1 :										// 3.   #     #  
+                        break;						// 2.  #       # 
+                case 1 :						// 3.   #     #  
                         std::cout << " #       #   ";			// 4.    #   #   
-                        break;									// 5.     # #    
-                case 2 :										// 6.      #     
+                        break;						// 5.     # #    
+                case 2 :						// 6.      #     
                         std::cout << "  #     #    ";
                         break;
                 case 3 :
@@ -533,11 +533,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "#       #  ";		// 1. #       #
-                        break;							// 2. #   #   #
-                case 1 :								// 3. #  # #  #
+                        break;					// 2. #   #   #
+                case 1 :					// 3. #  # #  #
                         std::cout << "#   #   #  ";		// 4. # #   # #
-                        break;							// 5. ##     ##
-                case 2 :								// 6. #       #
+                        break;					// 5. ##     ##
+                case 2 :					// 6. #       #
                         std::cout << "#  # #  #  ";
                         break;
                 case 3 :
@@ -556,12 +556,12 @@ class Banner_Class
 		switch ( n )
 		{
                 case 0 :
-                        std::cout << "#     #  ";			// 1. #     #
-                        break;								// 2.  #   # 
-                case 1 :									// 3.   # #  
-                        std::cout << " #   #   ";			// 4.    #   
-                        break;								// 5.  #   # 
-                case 2 :									// 6. #     #
+                        std::cout << "#     #  ";		// 1. #     #
+                        break;					// 2.  #   # 
+                case 1 :					// 3.   # #  
+                        std::cout << " #   #   ";		// 4.    #   
+                        break;					// 5.  #   # 
+                case 2 :					// 6. #     #
                         std::cout << "  # #    ";
                         break;
                 case 3 :
@@ -581,11 +581,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "#     #  ";		// 1. #     #
-                        break;							// 2.  #   # 
-                case 1 :								// 3.   # #  
+                        break;					// 2.  #   # 
+                case 1 :					// 3.   # #  
                         std::cout << " #   #   ";		// 4.    #   
-                        break;							// 5.    #
-                case 2 :								// 6.    #
+                        break;					// 5.    #
+                case 2 :					// 6.    #
                         std::cout << "  # #    ";
                         break;
                 case 3 :
@@ -600,12 +600,12 @@ class Banner_Class
 		switch ( n )
 		{
                 case 0 :
-                        std::cout << "######  ";	// 1. ######
-                        break;						// 2.     # 
-                case 1 :							// 3.    #  
-                        std::cout << "    #   ";	// 4.   #   
-                        break;						// 5.  #    
-                case 2 :							// 6. ######
+                        std::cout << "######  ";		// 1. ######
+                        break;					// 2.     # 
+                case 1 :					// 3.    #  
+                        std::cout << "    #   ";		// 4.   #   
+                        break;					// 5.  #    
+                case 2 :					// 6. ######
                         std::cout << "   #    ";
                         break;
                 case 3 :
@@ -625,11 +625,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << " ###   ";		// 1.  ### 
-                        break;						// 2. #   #
-                case 1 :							// 3. #   #
-                case 2 :							// 4. #   # 
-                case 3 :							// 5. #   #
-                case 4 :							// 6.  ### 
+                        break;				// 2. #   #
+                case 1 :				// 3. #   #
+                case 2 :				// 4. #   # 
+                case 3 :				// 5. #   #
+                case 4 :				// 6.  ### 
                         std::cout << "#   #  ";
                         break;
                 case 5 :
@@ -643,11 +643,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "   #     ";		// 1.    #   
-                        break;							// 2.  # #   
-                case 1 :								// 3. #  #   
+                        break;					// 2.  # #   
+                case 1 :					// 3. #  #   
                         std::cout << " # #     ";		// 4.    #   
-                        break;							// 5.    #   
-                case 2 :								// 6. #######
+                        break;					// 5.    #   
+                case 2 :					// 6. #######
                         std::cout << "#  #     ";
                         break;
                 case 3 :
@@ -665,11 +665,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << " #####    ";		// 1.  #####  
-                        break;							// 2. #     # 
-                case 1 :								// 3.      #  
+                        break;					// 2. #     # 
+                case 1 :					// 3.      #  
                         std::cout << "#     #   ";		// 4.    #    
-                        break;							// 5.  #      
-                  case 2 :								// 6. ########
+                        break;					// 5.  #      
+                  case 2 :					// 6. ########
                         std::cout << "     #    ";
                         break;
                 case 3 :
@@ -689,11 +689,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << " #####   ";		// 1.  ##### 
-                        break;							// 2. #     #
-                case 1 :								// 3.      # 
+                        break;					// 2. #     #
+                case 1 :					// 3.      # 
                         std::cout << "#     #  ";		// 4.      # 
-                        break;							// 5. #     #
-                case 2 :								// 6.  ##### 
+                        break;					// 5. #     #
+                case 2 :					// 6.  ##### 
                 case 3 :
                         std::cout << "     #   ";
                         break;
@@ -711,11 +711,11 @@ class Banner_Class
 		{
                 case 0 :
                         std::cout << "   ##     ";		// 1.    ##   
-                        break;							// 2.   # #   
-                case 1 :								// 3.  #  #   
+                        break;					// 2.   # #   
+                case 1 :					// 3.  #  #   
                         std::cout << "  # #     ";		// 4. ########
-                        break;							// 5.     #   
-                case 2 :								// 6.     #   
+                        break;					// 5.     #   
+                case 2 :					// 6.     #   
                         std::cout << " #  #     ";
                         break;
                 case 3 :
@@ -733,11 +733,11 @@ class Banner_Class
         {
                 case 0 :
                         std::cout << "#######  ";			// 1. #######
-                        break;								// 2. #      
-                case 1 :									// 3. ###### 
+                        break;						// 2. #      
+                case 1 :						// 3. ###### 
                         std::cout << "#        ";			// 4.       #
-                        break;								// 5. #     #
-                case 2 :									// 6.  ##### 
+                        break;						// 5. #     #
+                case 2 :						// 6.  ##### 
                         std::cout << "######   ";
                         break;
                 case 3 :
@@ -757,11 +757,11 @@ class Banner_Class
         {
                 case 0 :
                         std::cout << " #####   ";		// 1.  ##### 
-                        break;							// 2. #      
-                case 1 :								// 3. ###### 
+                        break;					// 2. #      
+                case 1 :					// 3. ###### 
                         std::cout << "#        ";		// 4. #     #
-                        break;							// 5. #     #
-                case 2 :								// 6.  ##### 
+                        break;					// 5. #     #
+                case 2 :					// 6.  ##### 
                         std::cout << "######   ";
                         break;
                 case 3 :
@@ -778,12 +778,12 @@ class Banner_Class
         switch ( n )
         {
                 case 0 :
-                        std::cout << "#########  ";			// 1. #########
-                        break;								// 2.        # 
-                case 1 :									// 3.       #  
-                        std::cout << "       #   ";			// 4.      #   
-                        break;								// 5.     #    
-                case 2 :									// 6.    #     
+                        std::cout << "#########  ";		// 1. #########
+                        break;					// 2.        # 
+                case 1 :					// 3.       #  
+                        std::cout << "       #   ";		// 4.      #   
+                        break;					// 5.     #    
+                case 2 :					// 6.    #     
                         std::cout << "      #    ";
                         break;
                 case 3 :
@@ -802,12 +802,12 @@ class Banner_Class
         switch ( n )
         {
                 case 0 :
-                        std::cout << " #####   ";			// 1.  ##### 
-                        break;								// 2. #     #
-                case 1 :									// 3.  ##### 
-                        std::cout << "#     #  ";			// 4. #     #
-                        break;								// 5. #     #
-                case 2 :									// 6.  ##### 
+                        std::cout << " #####   ";		// 1.  ##### 
+                        break;					// 2. #     #
+                case 1 :					// 3.  ##### 
+                        std::cout << "#     #  ";		// 4. #     #
+                        break;					// 5. #     #
+                case 2 :					// 6.  ##### 
                         std::cout << " #####   ";
                         break;
                 case 3 :
@@ -825,11 +825,11 @@ class Banner_Class
         {
                 case 0 :
                         std::cout << " ######   ";		// 1.  ###### 
-                        break;							// 2. #      #
-                case 1 :								// 3.  #######
+                        break;					// 2. #      #
+                case 1 :					// 3.  #######
                         std::cout << "#      #  ";		// 4.        #
-                        break;							// 5.  #     #
-                case 2 :								// 6.   ##### 
+                        break;					// 5.  #     #
+                case 2 :					// 6.   ##### 
                         std::cout << " #######  ";
                         break;
                 case 3 :
@@ -862,12 +862,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.          
-				case 1:								// 2.          
-				case 2:								// 3.          
+				case 0:						// 1.          
+				case 1:						// 2.          
+				case 2:						// 3.          
 						std::cout << "         ";	// 4.    ###   
-						break;						// 5.    ###   
-				case 3:								// 6.    ###   
+						break;				// 5.    ###   
+				case 3:						// 6.    ###   
 				case 4:
 				case 5:
 						std::cout << " ### ";
@@ -878,11 +878,11 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.    ###   
-				case 1:								// 2.    ###   
+				case 0:						// 1.    ###   
+				case 1:						// 2.    ###   
 						std::cout << "   ###   ";	// 3.     #    
-						break;						// 4.    #     
-				case 2:								// 5.          
+						break;				// 4.    #     
+				case 2:						// 5.          
 						std::cout << "    #    ";	// 6.          
 						break;
 				case 3:
@@ -898,12 +898,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.           
-				case 1:								// 2.           
-						std::cout << "          ";	// 3.   ####    
-						break;						// 4.   ####    
-				case 2:								// 5.      #    
-				case 3:								// 6.     #     
+				case 0:							// 1.           
+				case 1:							// 2.           
+						std::cout << "          ";		// 3.   ####    
+						break;					// 4.   ####    
+				case 2:							// 5.      #    
+				case 3:							// 6.     #     
 						std::cout << "  ####    ";
 						break;
 				case 4:
@@ -918,12 +918,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.     ##  
+				case 0:						// 1.     ##  
 						std::cout << "    ##  ";	// 2.    #    
-						break;						// 3.   #     
-				case 1:								// 4.   #     
+						break;				// 3.   #     
+				case 1:						// 4.   #     
 						std::cout << "   #    ";	// 5.    #    
-						break;						// 6.     ##  
+						break;				// 6.     ##  
 				case 2:
 				case 3:
 						std::cout << "  #     ";
@@ -940,12 +940,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.   ##    
-						std::cout << " ##      ";	// 2.     #   
-						break;						// 3.      #  
-				case 1:								// 4.      #  
-						std::cout << "   #     ";	// 5.     #   
-						break;						// 6.   ##    
+				case 0:							// 1.   ##    
+						std::cout << " ##      ";		// 2.     #   
+						break;					// 3.      #  
+				case 1:							// 4.      #  
+						std::cout << "   #     ";		// 5.     #   
+						break;					// 6.   ##    
 				case 2:
 				case 3:
 						std::cout << "    #    ";
@@ -962,12 +962,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.     #    
-						std::cout << "    #    ";	// 2.    # #   
-						break;						// 3.   #   #  
-				case 1:								// 4.          
-						std::cout << "   # #   ";	// 5.          
-						break;						// 6.          
+				case 0:							// 1.     #    
+						std::cout << "    #    ";		// 2.    # #   
+						break;					// 3.   #   #  
+				case 1:							// 4.          
+						std::cout << "   # #   ";		// 5.          
+						break;					// 6.          
 				case 2:
 						std::cout << "  #   #  ";
 						break;
@@ -982,12 +982,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-			case 0 :								// 1.   #     
+			case 0 :			// 1.   #     
                         std::cout << "  #     ";	// 2.  ####   
-                        break;						// 3. # #     
-                case 1 :							// 4.   # #   
+                        break;				// 3. # #     
+                case 1 :				// 4.   # #   
                         std::cout << " ####   ";	// 5.  ###    
-                        break;						// 6.   #     
+                        break;				// 6.   #     
                 case 2 :
                         std::cout << "# #     ";    
                         break;
@@ -1007,12 +1007,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:									// 1.   ######  
-						std::cout << "  ######    ";	// 2.  #      # 
-						break;							// 3.  # ###  # 
-				case 1:									// 4.  # #####  
-						std::cout << " #      #   ";	// 5.  #        
-						break;							// 6.   ######  
+				case 0:							// 1.   ######  
+						std::cout << "  ######    ";		// 2.  #      # 
+						break;					// 3.  # ###  # 
+				case 1:							// 4.  # #####  
+						std::cout << " #      #   ";		// 5.  #        
+						break;					// 6.   ######  
 				case 2:
 						std::cout << " # ###  #   ";
 						break;
@@ -1033,10 +1033,10 @@ class Banner_Class
 		{
 				case 0:							// 1.  ### 
 				case 1:							// 2.  ### 
-						std::cout << " ###   ";	// 3.   #  
+						std::cout << " ###   ";			// 3.   #  
 						break;					// 4.    # 
 				case 2:							// 5.      
-						std::cout << "  #    ";	// 6.      
+						std::cout << "  #    ";			// 6.      
 						break;
 				case 3:
 						std::cout << "   #   ";
@@ -1051,12 +1051,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.          
-						std::cout << "           ";	// 2.   ##     
-						break;						// 3.  #  #  # 
-				case 1:								// 4.      ##  
-						std::cout << "  ##       ";	// 5.          
-						break;						// 6.          
+				case 0:							// 1.          
+						std::cout << "           ";		// 2.   ##     
+						break;					// 3.  #  #  # 
+				case 1:							// 4.      ##  
+						std::cout << "  ##       ";		// 5.          
+						break;					// 6.          
 				case 2:
 						std::cout << " #  #  #   ";
 						break;
@@ -1073,12 +1073,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.   ###  
-				case 1:								// 2.   ###  
-				case 2:								// 3.   ###  
-						std::cout << "  ###    ";	// 4.    #   
-						break;						// 5.         
-				case 3:								// 6.    #   
+				case 0:							// 1.   ###  
+				case 1:							// 2.   ###  
+				case 2:							// 3.   ###  
+						std::cout << "  ###    ";		// 4.    #   
+						break;					// 5.         
+				case 3:							// 6.    #   
 						std::cout << "   #     ";
 						break;
 				case 4:
@@ -1095,13 +1095,13 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:									// 1.     #  #    
+				case 0:							// 1.     #  #    
 						std::cout << "   #  #    ";		// 2.   ########  
-						break;							// 3.     #  #    
-				case 1:									// 4.     #  #    
+						break;					// 3.     #  #    
+				case 1:							// 4.     #  #    
 						std::cout << " ########  ";		// 5.   ########  
-						break;							// 6.     #  #    
-				case 2:
+						break;					// 6.     #  #    
+			case 2:
 				case 3:
 						std::cout << "   #  #    ";
 						break;
@@ -1118,12 +1118,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:									// 1.  ###   #   
+				case 0:							// 1.  ###   #   
 						std::cout << " ###   #   ";		// 2.  # #  #    
-						break;							// 3.  ### #     
-				case 1:									// 4.     # ###  
+						break;					// 3.  ### #     
+				case 1:							// 4.     # ###  
 						std::cout << " # #  #    ";		// 5.    #  # #  
-						break;							// 6.   #   ###  
+						break;					// 6.   #   ###  
 				case 2:
 						std::cout << " ### #     ";
 						break;
@@ -1142,12 +1142,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:									// 1.    ##    
+				case 0:							// 1.    ##    
 						std::cout << "   ##     ";		// 2.   #  #   
-						break;							// 3.    ##    
-				case 1:									// 4.  #   # # 
+						break;					// 3.    ##    
+				case 1:							// 4.  #   # # 
 						std::cout << "  #  #    ";		// 5.  #    #  
-						break;							// 6.   ###  # 
+						break;					// 6.   ###  # 
 				case 2:
 						std::cout << "   ##     ";
 						break;
@@ -1167,12 +1167,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:									// 1.            
-						std::cout << "             ";	// 2.  #   #   # 
-						break;							// 3.    # # #   
-				case 1:									// 4.  ######### 
-						std::cout << " #   #   #   ";	// 5.    # # #   
-						break;							// 6.  #   #   # 
+				case 0:							// 1.            
+						std::cout << "             ";		// 2.  #   #   # 
+						break;					// 3.    # # #   
+				case 1:							// 4.  ######### 
+						std::cout << " #   #   #   ";		// 5.    # # #   
+						break;					// 6.  #   #   # 
 				case 2:
 						std::cout << "   # # #     ";
 						break;
@@ -1193,11 +1193,11 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.        
-				case 1:								// 2.        
+				case 0:						// 1.        
+				case 1:						// 2.        
 						std::cout << "       ";		// 3.  ##### 
-						break;						// 4.        
-				case 2:								// 5.        
+						break;				// 4.        
+				case 2:						// 5.        
 						std::cout << " ##### ";		// 6.        
 						break;
 				case 3:
@@ -1211,11 +1211,11 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.        
-				case 1:								// 2.        
-				case 2:								// 3.        
-				case 3:								// 4.        
-				case 4:								// 5.        
+				case 0:						// 1.        
+				case 1:						// 2.        
+				case 2:						// 3.        
+				case 3:						// 4.        
+				case 4:						// 5.        
 						std::cout << "       ";		// 6.  ##### 
 						break;
 				case 5:
@@ -1227,11 +1227,11 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.          
+				case 0:						// 1.          
 						std::cout << "          ";	// 2.     #    
-						break;   					// 3.     #    
-				case 1:								// 4.  ####### 
-				case 2: 							// 5.     #    
+						break;   			// 3.     #    
+				case 1:						// 4.  ####### 
+				case 2: 					// 5.     #    
 						std::cout << "    #     ";	// 6.     #    
 						break;
 				case 3:	
@@ -1247,12 +1247,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.        
+				case 0:						// 1.        
 						std::cout << "         ";	// 2.  ##### 
-						break; 						// 3.        
-				case 1:								// 4.  ##### 
+						break; 				// 3.        
+				case 1:						// 4.  ##### 
 						std::cout << " #####   ";	// 5.        
-						break;						// 6.        
+						break;				// 6.        
 				case 2:
 						std::cout << "         ";
 						break;
@@ -1269,12 +1269,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:							// 1.  ## 
-				case 1:							// 2.  ## 
-				case 2:							// 3.  ## 
-				case 3:							// 4.  ## 
-				case 4:							// 5.  ## 
-				case 5:							// 6.  ## 
+				case 0:						// 1.  ## 
+				case 1:						// 2.  ## 
+				case 2:						// 3.  ## 
+				case 3:						// 4.  ## 
+				case 4:						// 5.  ## 
+				case 5:						// 6.  ## 
 						std::cout << " ##   ";
 		}
 	}
@@ -1283,12 +1283,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:									// 1.   #       
+				case 0:							// 1.   #       
 						std::cout << " #        ";		// 2.    #      
-						break;							// 3.     #     
-				case 1:									// 4.      #    
+						break;					// 3.     #     
+				case 1:							// 4.      #    
 						std::cout << "  #       ";		// 5.       #   
-						break;							// 6.        #  
+						break;					// 6.        #  
 				case 2:
 						std::cout << "   #      ";
 						break;
@@ -1307,12 +1307,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.  ##### 
+				case 0:						// 1.  ##### 
 						std::cout << " ##### ";		// 2.  #     
-						break;						// 3.  #     
-				case 1:								// 4.  #     
-				case 2:								// 5.  #     
-				case 3:								// 6.  ##### 
+						break;				// 3.  #     
+				case 1:						// 4.  #     
+				case 2:						// 5.  #     
+				case 3:						// 6.  ##### 
 				case 4:
 						std::cout << " #     ";
 						break;
@@ -1325,12 +1325,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.  ##### 
+				case 0:						// 1.  ##### 
 						std::cout << " #####    ";	// 2.      # 
-						break;						// 3.      # 
-				case 1:								// 4.      # 
-				case 2:								// 5.      # 
-				case 3:								// 6.  ##### 
+						break;				// 3.      # 
+				case 1:						// 4.      # 
+				case 2:						// 5.      # 
+				case 3:						// 6.  ##### 
 				case 4:
 						std::cout << "     #    ";
 						break;
@@ -1343,12 +1343,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:									// 1.     ##### 
+				case 0:							// 1.     ##### 
 						std::cout << "    ##### ";		// 2.    #      
-						break;							// 3.  ##       
-				case 1:									// 4.    #      
+						break;					// 3.  ##       
+				case 1:							// 4.    #      
 						std::cout << "   #      ";		// 5.    #      
-						break;							// 6.     ##### 
+						break;					// 6.     ##### 
 				case 2:
 						std::cout << " ##       ";
 						break;
@@ -1366,12 +1366,12 @@ class Banner_Class
 		switch(n)
 		{
 				case 0:
-						std::cout << " #####      ";	// 1.  #####    
-						break;							// 2.       #   
-				case 1:									// 3.        ## 
-						std::cout << "      #     ";	// 4.       #   
-						break;							// 5.       #   
-				case 2:									// 6.  #####    
+						std::cout << " #####      ";		// 1.  #####    
+						break;					// 2.       #   
+				case 1:							// 3.        ## 
+						std::cout << "      #     ";		// 4.       #   
+						break;					// 5.       #   
+				case 2:							// 6.  #####    
 						std::cout << "       ##   ";
 						break;
 				case 3:
@@ -1387,11 +1387,11 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.       
+				case 0:						// 1.       
 						std::cout << "      ";		// 2.   ##  
-						break;						// 3.   ##  
-				case 1:								// 4.       
-				case 2:								// 5.   ##  
+						break;				// 3.   ##  
+				case 1:						// 4.       
+				case 2:						// 5.   ##  
 						std::cout << " ##   ";		// 6.   ##  
 						break;
 				case 3:
@@ -1407,12 +1407,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.   ##  
+				case 0:						// 1.   ##  
 						std::cout << " ##    ";		// 2.       
-						break;						// 3.   ##  
-				case 1:								// 4.   ##  
+						break;				// 3.   ##  
+				case 1:						// 4.   ##  
 						std::cout << "       ";		// 5.   #    
-						break; 						// 6.  #     
+						break; 				// 6.  #     
 				case 2:
 				case 3:
 						std::cout << " ##    ";
@@ -1429,11 +1429,11 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.  ## ## 
-				case 1:								// 2.  ## ## 
+				case 0:						// 1.  ## ## 
+				case 1:						// 2.  ## ## 
 						std::cout << " ## ##  ";	// 3.  #  #  
-						break;						// 4.        
-				case 2:								// 5.        
+						break;				// 4.        
+				case 2:						// 5.        
 						std::cout << " #  #   ";	// 6.        
 						break;
 				case 3:
@@ -1448,12 +1448,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.        
+				case 0:						// 1.        
 						std::cout << "         ";	// 2.      # 
-						break;						// 3.    #   
-				case 1:								// 4.  #     
+						break;				// 3.    #   
+				case 1:						// 4.  #     
 						std::cout << "     #   ";	// 5.    #   
-						break;						// 6.      # 
+						break;				// 6.      # 
 				case 2:
 						std::cout << "   #     ";
 						break;
@@ -1472,12 +1472,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:								// 1.        
+				case 0:						// 1.        
 						std::cout << "        ";	// 2.  #     
-						break;						// 3.    #   
-				case 1:								// 4.      # 
+						break;				// 3.    #   
+				case 1:						// 4.      # 
 						std::cout << " #      ";	// 5.    #   
-						break;						// 6.  #     
+						break;				// 6.  #     
 				case 2:
 						std::cout << "   #    ";
 						break;
@@ -1496,12 +1496,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:									// 1.   #####   
+				case 0:							// 1.   #####   
 						std::cout << "  #####   ";		// 2.  #     #  
-						break;							// 3.     ###   
-				case 1:									// 4.     #     
+						break;					// 3.     ###   
+				case 1:							// 4.     #     
 						std::cout << " #     #  ";		// 5.           
-						break;							// 6.     #     
+						break;					// 6.     #     
 				case 2:
 						std::cout << "    ###   ";
 						break;
@@ -1520,12 +1520,12 @@ class Banner_Class
 	{
 		switch(n)
 		{
-				case 0:									// 1.        #  
+				case 0:							// 1.        #  
 						std::cout << "      #   ";		// 2.       #   
-						break;							// 3.      #    
-				case 1:									// 4.     #     
+						break;					// 3.      #    
+				case 1:							// 4.     #     
 						std::cout << "     #    ";		// 5.    #      
-						break;							// 6.   #       
+						break;					// 6.   #       
 				case 2:
 						std::cout << "    #     ";
 						break;
@@ -1547,208 +1547,208 @@ class Banner_Class
 	
 	void character_print (char c, int n)
 	{
-        switch(c)
-        {
-                case 'a' :
-                case 'A' :
-                        a(n);   break;
+        	switch(c)
+        	{
+                	case 'a' :
+                	case 'A' :
+				a(n);   break;
 
-                case 'b' :
-                case 'B' :
-                        b(n);   break;
+                	case 'b' :
+                	case 'B' :
+                        	b(n);   break;
 
-                case 'c' :
-                case 'C' :
-                        C(n);   break;
+                	case 'c' :
+                	case 'C' :
+				C(n);   break;
 
-                case 'd' :
-                case 'D' :
-                        d(n);   break;
+                	case 'd' :
+                	case 'D' :
+                        	d(n);   break;
 
-                case 'e' :
-                case 'E' :
-                        e(n);   break;
+               		case 'e' :
+                	case 'E' :
+                        	e(n);   break;
 
-                case 'f' :
-                case 'F' :
-                        f(n);   break;
+                	case 'f' :
+                	case 'F' :
+                        	f(n);   break;
 
-                case 'g' :
-                case 'G' :
-                        g(n);   break;
+                	case 'g' :
+                	case 'G' :
+                        	g(n);   break;
 
-                case 'h' :
-                case 'H' :
-                        h(n);   break;
+                	case 'h' :
+                	case 'H' :
+                        	h(n);   break;
 
-                case 'i' :
-                case 'I' :
-                        i(n);   break;
+                	case 'i' :
+                	case 'I' :
+                        	i(n);   break;
 
-                case 'j' :
-                case 'J' :
-                        j(n);   break;
+                	case 'j' :
+                	case 'J' :
+                        	j(n);   break;
 
-                case 'k' :
-                case 'K' :
-                        k(n);   break;
+                	case 'k' :
+                	case 'K' :
+                        	k(n);   break;
 
-                case 'l' :
-                case 'L' :
-                        l(n);   break;
+                	case 'l' :
+                	case 'L' :
+                        	l(n);   break;
 
-                case 'm' :
-                case 'M' :
-                        m(n);   break;
+                	case 'm' :
+                	case 'M' :
+                        	m(n);   break;
 
-                case 'n' :
-                case 'N' :
-                        N(n);   break;
+                	case 'n' :
+                	case 'N' :
+                        	N(n);   break;
 
-                case 'o' :
-                case 'O' :
-                        o(n);   break;
+                	case 'o' :
+                	case 'O' :
+                        	o(n);   break;
 
-                case 'p' :
-                case 'P' :
-                        p(n);   break;
+                	case 'p' :
+                	case 'P' :
+                        	p(n);   break;
 
-                case 'q' :
-                case 'Q' :
-                        q(n);   break;
+                	case 'q' :
+                	case 'Q' :
+                        	q(n);   break;
 
-                case 'r' :
-                case 'R' :
-                        r(n);   break;
+                	case 'r' :
+                	case 'R' :
+                        	r(n);   break;
 
-                case 's' :
-                case 'S' :
-                        s(n);   break;
+                	case 's' :
+                	case 'S' :
+                        	s(n);   break;
 
-                case 't' :
-                case 'T' :
-                        t(n);   break;
+                	case 't' :
+                	case 'T' :
+                        	t(n);   break;
 
-                case 'u' :
-                case 'U' :
-                        u(n);   break;
+                	case 'u' :
+                	case 'U' :
+                        	u(n);   break;
 
-                case 'v' :
-                case 'V' :
-                        v(n);   break;
+                	case 'v' :
+                	case 'V' :
+                        	v(n);   break;
 
-                case 'w' :
-                case 'W' :
-                        w(n);   break;
+                	case 'w' :
+                	case 'W' :
+                        	w(n);   break;
 
-                case 'x' :
-                case 'X' :
-                        x(n);   break;
+                	case 'x' :
+                	case 'X' :
+                        	x(n);   break;
 
-                case 'y' :
-                case 'Y' :
-                        y(n);   break;
+                	case 'y' :
+                	case 'Y' :
+                        	y(n);   break;
 
-                case 'z' :
-                case 'Z' :
-                        Z(n);   break;
+                	case 'z' :
+                	case 'Z' :
+                        	Z(n);   break;
 
-                case '0' :
-                        s_0(n);        break;
+                	case '0' :
+                        	s_0(n);        break;
 
-                case '1' :
-                        s_1(n);        break;
+                	case '1' :
+                        	s_1(n);        break;
 
-                case '2' :
-                        s_2(n);        break;
+                	case '2' :
+                        	s_2(n);        break;
 
-                case '3' :
-                        s_3(n);        break;
+                	case '3' :
+                        	s_3(n);        break;
 
-                case '4' :
-                        s_4(n);        break;
+                	case '4' :
+                        	s_4(n);        break;
 
-                case '5' :
-                        s_5(n);        break;
+                	case '5' :
+                        	s_5(n);        break;
 
-                case '6' :
-                        s_6(n);        break;
+                	case '6' :
+                        	s_6(n);        break;
 
-                case '7' :
-                        s_7(n);        break;
+                	case '7' :
+                        	s_7(n);        break;
 
-                case '8' :
-                        s_8(n);        break;
+                	case '8' :
+                        	s_8(n);        break;
 
-                case '9' :
-                        s_9(n);        break;
-                case '.' :
-						s_dot(n);	   break;
-				case '+':
-						s_plus(n);	   break;
-				case '*':
-						s_star(n);	   break;
-				case ':':
-						s_colon(n);	   break;
-                case ' ' :
-						s_space(n);	   break;
-				case '~':
-						s_tilde(n);	   break;
-				case ',' :
-						s_comma(n);	   break;
-				case '$':
-						s_dollar(n);   break;
-				case '-':
-						s_hyphen(n);   break;
-				case '=':
-						s_equal_to(n);				break;
-				case '#' :
-						s_hash_mark(n);				break;
-				case '&':
-						s_ampersand(n);				break;
-				case '\\':
-						s_backslash(n);				break;
-				case '<':
-						s_less_than(n);				break;
-				case ';':
-						s_semi_colon(n);			break;
-				case '_':
-						s_underscore(n);			break;
-				case '%':
-						s_percentage(n);			break;
-				case '@':
-						s_at_the_rate(n);			break;
-				case '>':
-						s_greater_than(n);			break;
-				case '|':
-						s_vertical_bar(n);			break;
-				case '^':
-						s_inverted_cap(n);			break;
-				case '/':
-						s_forward_slash(n);			break;
-				case '?':
-						s_question_mark(n);			break;
-				case '\'' :
-						s_inverted_comma(n);    	break;
-				case '!':
-						s_exclamation_mark(n);		break;
-				case '(' :
-						s_paranthesis_left(n);  	break;
-				case ')' :
-						s_paranthesis_right(n); 	break;
-				case '`':
-						s_reversed_quotation(n);	break;
-				case '{':
-						s_cruve_bracket_left(n);	break;
-				case '}':
-						s_cruve_bracket_right(n);	break;
-				case '[':
-						s_square_bracket_left(n);	break;
-				case ']':
-						s_square_bracket_right(n);	break;
-				case '\"':
-						s_doble_inverted_commas(n);	break;
-        }
+                	case '9' :
+                        	s_9(n);        break;
+                	case '.' :
+					s_dot(n);	   break;
+			case '+':
+					s_plus(n);	   break;
+			case '*':
+					s_star(n);	   break;
+			case ':':
+					s_colon(n);	   break;
+                	case ' ' :
+					s_space(n);	   break;
+			case '~':
+					s_tilde(n);	   break;
+			case ',' :
+					s_comma(n);	   break;
+			case '$':
+					s_dollar(n);	  break;
+			case '-':
+					s_hyphen(n); 	  break;
+			case '=':
+					s_equal_to(n);			break;
+			case '#' :
+					s_hash_mark(n);			break;
+			case '&':
+					s_ampersand(n);			break;
+			case '\\':
+					s_backslash(n);			break;
+			case '<':
+					s_less_than(n);			break;
+			case ';':
+					s_semi_colon(n);		break;
+			case '_':
+					s_underscore(n);		break;
+			case '%':
+					s_percentage(n);		break;
+			case '@':
+					s_at_the_rate(n);		break;
+			case '>':
+					s_greater_than(n);		break;
+			case '|':
+					s_vertical_bar(n);		break;
+			case '^':
+					s_inverted_cap(n);		break;
+			case '/':
+					s_forward_slash(n);		break;
+			case '?':
+					s_question_mark(n);		break;
+			case '\'' :
+					s_inverted_comma(n);    	break;
+			case '!':
+					s_exclamation_mark(n);		break;
+			case '(' :
+					s_paranthesis_left(n);  	break;
+			case ')' :
+					s_paranthesis_right(n); 	break;
+			case '`':
+					s_reversed_quotation(n);	break;
+			case '{':
+					s_cruve_bracket_left(n);	break;
+			case '}':
+					s_cruve_bracket_right(n);	break;
+			case '[':
+					s_square_bracket_left(n);	break;
+			case ']':
+					s_square_bracket_right(n);	break;
+			case '\"':
+					s_doble_inverted_commas(n);	break;
+        	}
 		return;
 	}
 	
