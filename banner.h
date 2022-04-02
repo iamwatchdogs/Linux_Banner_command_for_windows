@@ -7,7 +7,7 @@
  * 		Programming Language used                               : C++
  * 		Current File Type					: C++ Header file
  * 		Project initiation Date/Time                            : 18th December 2021 12:13 A.M.
- * 		Recent Data/Time of Modification                        : 19th March 2022 12:07 A.M.
+ * 		Recent Data/Time of Modification                        : 02th April 2022 10:49 P.M.
  * 		File Status                                             : Verified and working.
  * 		Author                                                  : N.Shamith
  * 
@@ -61,8 +61,11 @@
  * 
  * 		NOTE :-
  * 		----
- * 					   The soucre code is also available for reusing in your presonal projects, Since it's easy to
- * 		use, manage, extend it's functionalities and to debug ( if any ).
+ *		+ This project is not an exact/perfect imitation as the original banner format consists of 7 line of equivalent it's
+ *		  banner representation but i decided to make 6 line of equivalent representaion of the input string. And also there
+ *		  minor change to the original banner representaion, just to make it a bit different to the original version of it.
+ * 		+ The soucre code is also available for reusing in your presonal projects, Since it's easy to use, manage, extend it's 
+ *		  functionalities and to debug ( if any ).
  * 
  */ 
 
@@ -1754,7 +1757,7 @@ class Banner_Class
 	
 	friend void banner( std::string str, Banner_Class &obj );
 	
-}default_obj;
+}default_obj;	// Declaration of Default object of the Banner_Class.
 
 // # Input_manager :-
 //   -------------
@@ -1765,13 +1768,12 @@ class Banner_Class
 // Even thought is was declared in the class using friend keyword,
 // it's not considered as a method/member function of the class.
 
-void banner( std::string str, Banner_Class &obj = default_obj )
+void banner( std::string str, Banner_Class &obj = default_obj )	// The Default object is passed as the default agrument to the friend function.
 {
-	int i,j,num;
-	for( i = 0; i < 6; ++i )
+	for( int i = 0; i < 6; ++i )				// Represents the 6 lines(or) 6 row iterations.
 	{
-		for ( j = 0; str[j] != '\0' ; ++j)
-			obj.character_print( str[j], i );
+		for( char j : str )				// Sequential iteration which represebts the column iterations.
+			obj.character_print( j, i );
 		std::cout << std::endl;
 	}
 	std::cout << std::endl << std::endl << "\n";
