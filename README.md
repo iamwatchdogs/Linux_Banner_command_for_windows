@@ -1,6 +1,4 @@
-# --- PROJECT BANNER ---
-
-
+# PROJECT BANNER <img src="https://visitor-badge.laobi.icu/badge?page_id=iamwatchdogs.Linux_Banner_command_for_windows" alt="" align="right" />
 
 ## PROJECT INITIZATION :
 
@@ -23,7 +21,6 @@
   with a bit of object oriented programming.
  
 - Now, The project has been finished with completion of the testing phase.
-
 
 ## WHAT IS BANNER ?
 
