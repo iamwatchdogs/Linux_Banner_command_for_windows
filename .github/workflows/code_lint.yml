@@ -1,0 +1,31 @@
+name: C/C++ Lint
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - '**.c'
+      - '**.cpp'
+  pull_request:
+    branches: [ main, master ]
+    paths:
+      - '**.c'
+      - '**.cpp'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up clang-tidy
+        uses: pocc/prebuilt-llvm-action@v1
+        with:
+          tool: clang-tidy
+
+      - name: Run clang-tidy
+        run: |
+          clang-tidy --version
+          clang-tidy src/*.cpp src/*.h
