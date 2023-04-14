@@ -1,4 +1,4 @@
-# PROJECT BANNER <img src="https://visitor-badge.laobi.icu/badge?page_id=iamwatchdogs.Linux_Banner_command_for_windows" alt="" align="right" /><img src="https://github.com/cpp-linter/cpp-linter-action/actions/workflows/cpp-linter.yml/badge.svg" alt="code lint status" align="right" />
+# PROJECT BANNER <img src="https://visitor-badge.laobi.icu/badge?page_id=iamwatchdogs.Linux_Banner_command_for_windows" alt="" align="right" /><img src="https://github.com/iamwatchdogs/Linux_Banner_command_for_windows/actions/workflows/code_lint.yml/badge.svg" alt="code lint status" align="right" />
 
 ## PROJECT INITIZATION :
 
