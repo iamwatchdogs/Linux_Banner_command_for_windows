@@ -20,12 +20,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up clang-tidy
-        uses: pocc/prebuilt-llvm-action@v1
+      - name: Install Clang
+        uses: actions/setup-clang@v1
         with:
-          tool: clang-tidy
+          clang-version: "12"
+          tool-cache: true
 
       - name: Run clang-tidy
         run: |
           clang-tidy --version
-          clang-tidy src/*.cpp src/*.h
+          clang-tidy src/*.cpp src/*.c
