@@ -3,17 +3,17 @@ name: C/C++ Lint
 on:
   push:
     branches: [ main, master ]
-#     paths:
-#       - '**.c'
-#       - '**.cpp'
+    paths:
+      - '**.c'
+      - '**.cpp'
   pull_request:
     branches: [ main, master ]
-#     paths:
-#       - '**.c'
-#       - '**.cpp'
+    paths:
+      - '**.c'
+      - '**.cpp'
 
 jobs:
-  cpp-linter:
+  Code-Linting:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
