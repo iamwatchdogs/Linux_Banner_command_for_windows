@@ -3,14 +3,14 @@ name: C/C++ Lint
 on:
   push:
     branches: [ main, master ]
-#     paths:
-#       - '**.c'
-#       - '**.cpp'
+    paths:
+      - '**.c'
+      - '**.cpp'
   pull_request:
     branches: [ main, master ]
-#     paths:
-#       - '**.c'
-#       - '**.cpp'
+    paths:
+      - '**.c'
+      - '**.cpp'
 
 jobs:
   lint:
@@ -20,13 +20,24 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Install Clang
-        uses: actions/setup-clang@v1
+      - name: Install Clang and Python
+        uses: actions/cache@v2
         with:
-          clang-version: "12"
-          tool-cache: true
+          path: |
+            /usr/bin/clang-tidy
+            /usr/bin/clang
+            /usr/bin/llvm-config
+          key: ${{ runner.os }}-clang-python-${{ hashFiles('**/lockfiles.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-clang-python-
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
 
       - name: Run clang-tidy
         run: |
           clang-tidy --version
           clang-tidy src/*.cpp src/*.c
+
